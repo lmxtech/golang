@@ -13,7 +13,18 @@ func PrintNumbers(m int) int {
 	}
 	return c
 }
+func square(x int) error {
+	for i:=0; i<: i++ {
+		fmt.Printf("%v -> %v\n", i, i*i)
+	}
+	return nil
+}
+
 func main() {
 	fmt.Println("Hello World, again")
 	fmt.Println(PrintNumbers(10))
+	err := square(10)
+	if err != nil {
+		fmt.Printf("Error occured %v\n", err)
+	}
 }
