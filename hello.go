@@ -14,7 +14,7 @@ func PrintNumbers(m int) int {
 	return c
 }
 func square(x int) error {
-	for i:=0; i<: i++ {
+	for i:=0; i<x: i++ {
 		fmt.Printf("%v -> %v\n", i, i*i)
 	}
 	return nil
